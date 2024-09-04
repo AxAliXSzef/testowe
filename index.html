@@ -19,12 +19,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="#oferta">Oferta</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
+
+    <section id="welcome" class="py-5 text-center text-light">
+        <div class="container">
+            <h2>Witaj na GTAKasa!</h2>
+            <p>Oferujemy najlepsze pakiety GTA$ dla Twojej gry. Sprawdź nasze oferty i skontaktuj się z nami, jeśli masz pytania.</p>
+        </div>
+    </section>
 
     <section id="oferta" class="py-5">
         <div class="container">
@@ -36,7 +43,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Pakiet 1</h3>
                             <p class="card-text">500,000 GTA$</p>
-                            <a href="#" class="btn btn-primary">Kup teraz</a>
+                            <a href="payment-page1.html" class="btn btn-primary">Kup teraz</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +53,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Pakiet 2</h3>
                             <p class="card-text">1,000,000 GTA$</p>
-                            <a href="#" class="btn btn-primary">Kup teraz</a>
+                            <a href="payment-page2.html" class="btn btn-primary">Kup teraz</a>
                         </div>
                     </div>
                 </div>
@@ -56,54 +63,13 @@
                         <div class="card-body">
                             <h3 class="card-title">Pakiet 3</h3>
                             <p class="card-text">5,000,000 GTA$</p>
-                            <a href="#" class="btn btn-primary">Kup teraz</a>
+                            <a href="payment-page3.html" class="btn btn-primary">Kup teraz</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="kontakt" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Kontakt</h2>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-6">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Imię:</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <button type="submit" class="btn btn-dark btn-block">Wyślij</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Modal -->
-    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitle">Sukces!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Formularz został wysłany. Dziękujemy za kontakt!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
